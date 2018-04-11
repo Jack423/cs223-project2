@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cs223_project2.dir/main.cpp.o CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o  -o cs223_project2 

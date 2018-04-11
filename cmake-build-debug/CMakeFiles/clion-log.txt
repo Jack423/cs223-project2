@@ -1,0 +1,4 @@
+/home/jack/clion-2018.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jack/Documents/cs223-project2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jack/Documents/cs223-project2/cmake-build-debug
