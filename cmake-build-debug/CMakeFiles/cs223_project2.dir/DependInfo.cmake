@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jack/Documents/cs223-project2/Part1/TestHashing.cpp" "/home/jack/Documents/cs223-project2/cmake-build-debug/CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o"
-  "/home/jack/Documents/cs223-project2/main.cpp" "/home/jack/Documents/cs223-project2/cmake-build-debug/CMakeFiles/cs223_project2.dir/main.cpp.o"
+  "/home/jack/CLionProjects/cs223-project2/Part1/TestHashing.cpp" "/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o"
+  "/home/jack/CLionProjects/cs223-project2/main.cpp" "/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/cs223_project2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

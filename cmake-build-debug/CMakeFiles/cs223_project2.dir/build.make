@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/jack/clion-2018.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/jack/Downloads/clion-2018.1.1/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/jack/clion-2018.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/jack/Downloads/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jack/Documents/cs223-project2
+CMAKE_SOURCE_DIR = /home/jack/CLionProjects/cs223-project2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jack/Documents/cs223-project2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jack/CLionProjects/cs223-project2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cs223_project2.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/cs223_project2.dir/flags.make
 
 CMakeFiles/cs223_project2.dir/main.cpp.o: CMakeFiles/cs223_project2.dir/flags.make
 CMakeFiles/cs223_project2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jack/Documents/cs223-project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cs223_project2.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs223_project2.dir/main.cpp.o -c /home/jack/Documents/cs223-project2/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cs223_project2.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs223_project2.dir/main.cpp.o -c /home/jack/CLionProjects/cs223-project2/main.cpp
 
 CMakeFiles/cs223_project2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs223_project2.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jack/Documents/cs223-project2/main.cpp > CMakeFiles/cs223_project2.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jack/CLionProjects/cs223-project2/main.cpp > CMakeFiles/cs223_project2.dir/main.cpp.i
 
 CMakeFiles/cs223_project2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs223_project2.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/Documents/cs223-project2/main.cpp -o CMakeFiles/cs223_project2.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/CLionProjects/cs223-project2/main.cpp -o CMakeFiles/cs223_project2.dir/main.cpp.s
 
 CMakeFiles/cs223_project2.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/cs223_project2.dir/main.cpp.o.provides.build: CMakeFiles/cs223_projec
 
 CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o: CMakeFiles/cs223_project2.dir/flags.make
 CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o: ../Part1/TestHashing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jack/Documents/cs223-project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o -c /home/jack/Documents/cs223-project2/Part1/TestHashing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o -c /home/jack/CLionProjects/cs223-project2/Part1/TestHashing.cpp
 
 CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jack/Documents/cs223-project2/Part1/TestHashing.cpp > CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jack/CLionProjects/cs223-project2/Part1/TestHashing.cpp > CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.i
 
 CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/Documents/cs223-project2/Part1/TestHashing.cpp -o CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/CLionProjects/cs223-project2/Part1/TestHashing.cpp -o CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.s
 
 CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o.requires:
 
@@ -117,7 +117,7 @@ cs223_project2: CMakeFiles/cs223_project2.dir/main.cpp.o
 cs223_project2: CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o
 cs223_project2: CMakeFiles/cs223_project2.dir/build.make
 cs223_project2: CMakeFiles/cs223_project2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jack/Documents/cs223-project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cs223_project2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cs223_project2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cs223_project2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/cs223_project2.dir/clean:
 .PHONY : CMakeFiles/cs223_project2.dir/clean
 
 CMakeFiles/cs223_project2.dir/depend:
-	cd /home/jack/Documents/cs223-project2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jack/Documents/cs223-project2 /home/jack/Documents/cs223-project2 /home/jack/Documents/cs223-project2/cmake-build-debug /home/jack/Documents/cs223-project2/cmake-build-debug /home/jack/Documents/cs223-project2/cmake-build-debug/CMakeFiles/cs223_project2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jack/CLionProjects/cs223-project2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jack/CLionProjects/cs223-project2 /home/jack/CLionProjects/cs223-project2 /home/jack/CLionProjects/cs223-project2/cmake-build-debug /home/jack/CLionProjects/cs223-project2/cmake-build-debug /home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/cs223_project2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cs223_project2.dir/depend
 

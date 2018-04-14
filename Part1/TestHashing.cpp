@@ -4,26 +4,25 @@
 
 #include <cstdlib>
 #include <iostream>
+#include <stdio.h>
+#include <time.h>
 
 #include "HashingWithAVL.h"
 #include "HashingWithLL.h"
 #include "PrimeGeneration.h"
-
 using namespace std;
 
 void testCorrectness() {
-    srand(0);
     cout << "*** Test Hashing Correctness ***" << endl << endl;
     int TABLE_SIZE = 5;
-    int U = 50;
     HashingWithLL hChain(TABLE_SIZE);
     HashingWithAVL hBST(TABLE_SIZE);
 
-    int testArray[] = {11, 12, 15, 17, 12, 19, 4, 5, 19, 20, 32, 77, 65, 88,
-                       99, 10, 8, 19, 15, 66};
+    int insertArray[] = { 11, 12, 15, 17, 12, 19, 4, 5, 19, 20, 32, 77, 65, 88,
+                          99, 10, 8, 19, 15, 66 };
     int arrayLen = 20;
     for (int i = 0; i < arrayLen; i++) {
-        int val = testArray[i];
+        int val = insertArray[i];
         bool inserted = hChain.insert(val);
         if (!hBST.insert(val) && inserted)
             throw "Something went wrong";
@@ -37,9 +36,11 @@ void testCorrectness() {
         cout << endl << endl;
     }
 
+    int searchArray[] = { 11, 12, 15, 17, 12, 10, 48, 5, 30, 46, 38, 5, 14, 13,
+                          99, 10, 8, 46, 3, 10 };
+
     for (int i = 0; i < arrayLen; i++) {
-        double randDouble = (double) rand() / RAND_MAX;
-        int val = randDouble > 0.5 ? rand() % U : testArray[i];
+        int val = searchArray[i];
         bool found = hChain.search(val);
         if (!hBST.search(val) && found)
             throw "Something went wrong with search!";
@@ -49,9 +50,11 @@ void testCorrectness() {
             cout << "Did not find " << val << endl;
     }
     cout << endl;
+    int deleteArray[] = { 11, 12, 44, 41, 10, 12, 4, 5, 16, 20, 12, 26, 65, 88,
+                          99, 10, 14, 45, 15, 66 };
+
     for (int i = 0; i < arrayLen; i++) {
-        double randDouble = (double) rand() / RAND_MAX;
-        int val = randDouble > 0.5 ? rand() % U : testArray[i];
+        int val = deleteArray[i];
         bool deleted = hChain.remove(val);
         if (!hBST.remove(val) && deleted)
             throw "Something went wrong with deletion!";
@@ -187,4 +190,3 @@ int main() {
     testHashingTime();
     return 0;
 }
-
