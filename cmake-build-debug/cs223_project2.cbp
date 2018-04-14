@@ -105,6 +105,15 @@
 		<Unit filename="/home/jack/CLionProjects/cs223-project2/Part1/TestHashing.cpp">
 			<Option target="cs223_project2"/>
 		</Unit>
+		<Unit filename="/home/jack/CLionProjects/cs223-project2/Part2-3/Heap.h">
+			<Option target="cs223_project2"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/cs223-project2/Part2-3/KSortAlgo.h">
+			<Option target="cs223_project2"/>
+		</Unit>
+		<Unit filename="/home/jack/CLionProjects/cs223-project2/Part2-3/TestHead.cpp">
+			<Option target="cs223_project2"/>
+		</Unit>
 		<Unit filename="/home/jack/CLionProjects/cs223-project2/main.cpp">
 			<Option target="cs223_project2"/>
 		</Unit>

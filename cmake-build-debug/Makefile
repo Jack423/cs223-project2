@@ -150,6 +150,33 @@ Part1/TestHashing.cpp.s:
 	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.s
 .PHONY : Part1/TestHashing.cpp.s
 
+Part2-3/TestHead.o: Part2-3/TestHead.cpp.o
+
+.PHONY : Part2-3/TestHead.o
+
+# target to build an object file
+Part2-3/TestHead.cpp.o:
+	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/Part2-3/TestHead.cpp.o
+.PHONY : Part2-3/TestHead.cpp.o
+
+Part2-3/TestHead.i: Part2-3/TestHead.cpp.i
+
+.PHONY : Part2-3/TestHead.i
+
+# target to preprocess a source file
+Part2-3/TestHead.cpp.i:
+	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/Part2-3/TestHead.cpp.i
+.PHONY : Part2-3/TestHead.cpp.i
+
+Part2-3/TestHead.s: Part2-3/TestHead.cpp.s
+
+.PHONY : Part2-3/TestHead.s
+
+# target to generate assembly for a file
+Part2-3/TestHead.cpp.s:
+	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/Part2-3/TestHead.cpp.s
+.PHONY : Part2-3/TestHead.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Part1/TestHashing.o"
 	@echo "... Part1/TestHashing.i"
 	@echo "... Part1/TestHashing.s"
+	@echo "... Part2-3/TestHead.o"
+	@echo "... Part2-3/TestHead.i"
+	@echo "... Part2-3/TestHead.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
