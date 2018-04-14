@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cs223_project2
+# Target rules for targets named part2-3
 
 # Build rule for target.
-cs223_project2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cs223_project2
-.PHONY : cs223_project2
+part2-3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 part2-3
+.PHONY : part2-3
 
 # fast build rule for target.
-cs223_project2/fast:
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/build
-.PHONY : cs223_project2/fast
+part2-3/fast:
+	$(MAKE) -f CMakeFiles/part2-3.dir/build.make CMakeFiles/part2-3.dir/build
+.PHONY : part2-3/fast
+
+#=============================================================================
+# Target rules for targets named part1
+
+# Build rule for target.
+part1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 part1
+.PHONY : part1
+
+# fast build rule for target.
+part1/fast:
+	$(MAKE) -f CMakeFiles/part1.dir/build.make CMakeFiles/part1.dir/build
+.PHONY : part1/fast
 
 Part1/TestHashing.o: Part1/TestHashing.cpp.o
 
@@ -129,7 +142,7 @@ Part1/TestHashing.o: Part1/TestHashing.cpp.o
 
 # target to build an object file
 Part1/TestHashing.cpp.o:
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o
+	$(MAKE) -f CMakeFiles/part1.dir/build.make CMakeFiles/part1.dir/Part1/TestHashing.cpp.o
 .PHONY : Part1/TestHashing.cpp.o
 
 Part1/TestHashing.i: Part1/TestHashing.cpp.i
@@ -138,7 +151,7 @@ Part1/TestHashing.i: Part1/TestHashing.cpp.i
 
 # target to preprocess a source file
 Part1/TestHashing.cpp.i:
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.i
+	$(MAKE) -f CMakeFiles/part1.dir/build.make CMakeFiles/part1.dir/Part1/TestHashing.cpp.i
 .PHONY : Part1/TestHashing.cpp.i
 
 Part1/TestHashing.s: Part1/TestHashing.cpp.s
@@ -147,7 +160,7 @@ Part1/TestHashing.s: Part1/TestHashing.cpp.s
 
 # target to generate assembly for a file
 Part1/TestHashing.cpp.s:
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.s
+	$(MAKE) -f CMakeFiles/part1.dir/build.make CMakeFiles/part1.dir/Part1/TestHashing.cpp.s
 .PHONY : Part1/TestHashing.cpp.s
 
 Part2-3/TestHead.o: Part2-3/TestHead.cpp.o
@@ -156,7 +169,7 @@ Part2-3/TestHead.o: Part2-3/TestHead.cpp.o
 
 # target to build an object file
 Part2-3/TestHead.cpp.o:
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/Part2-3/TestHead.cpp.o
+	$(MAKE) -f CMakeFiles/part2-3.dir/build.make CMakeFiles/part2-3.dir/Part2-3/TestHead.cpp.o
 .PHONY : Part2-3/TestHead.cpp.o
 
 Part2-3/TestHead.i: Part2-3/TestHead.cpp.i
@@ -165,7 +178,7 @@ Part2-3/TestHead.i: Part2-3/TestHead.cpp.i
 
 # target to preprocess a source file
 Part2-3/TestHead.cpp.i:
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/Part2-3/TestHead.cpp.i
+	$(MAKE) -f CMakeFiles/part2-3.dir/build.make CMakeFiles/part2-3.dir/Part2-3/TestHead.cpp.i
 .PHONY : Part2-3/TestHead.cpp.i
 
 Part2-3/TestHead.s: Part2-3/TestHead.cpp.s
@@ -174,35 +187,8 @@ Part2-3/TestHead.s: Part2-3/TestHead.cpp.s
 
 # target to generate assembly for a file
 Part2-3/TestHead.cpp.s:
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/Part2-3/TestHead.cpp.s
+	$(MAKE) -f CMakeFiles/part2-3.dir/build.make CMakeFiles/part2-3.dir/Part2-3/TestHead.cpp.s
 .PHONY : Part2-3/TestHead.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/main.cpp.s
-.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -211,17 +197,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... part2-3"
 	@echo "... rebuild_cache"
-	@echo "... cs223_project2"
+	@echo "... part1"
 	@echo "... Part1/TestHashing.o"
 	@echo "... Part1/TestHashing.i"
 	@echo "... Part1/TestHashing.s"
 	@echo "... Part2-3/TestHead.o"
 	@echo "... Part2-3/TestHead.i"
 	@echo "... Part2-3/TestHead.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

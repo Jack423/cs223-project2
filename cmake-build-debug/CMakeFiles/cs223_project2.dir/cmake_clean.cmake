@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cs223_project2.dir/main.cpp.o"
   "CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o"
   "CMakeFiles/cs223_project2.dir/Part2-3/TestHead.cpp.o"
   "cs223_project2.pdb"

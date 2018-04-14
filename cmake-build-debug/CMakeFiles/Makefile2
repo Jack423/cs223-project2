@@ -60,39 +60,76 @@ CMAKE_SOURCE_DIR = /home/jack/CLionProjects/cs223-project2
 CMAKE_BINARY_DIR = /home/jack/CLionProjects/cs223-project2/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/cs223_project2.dir
+# Target rules for target CMakeFiles/part2-3.dir
 
 # All Build rule for target.
-CMakeFiles/cs223_project2.dir/all:
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/depend
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target cs223_project2"
-.PHONY : CMakeFiles/cs223_project2.dir/all
+CMakeFiles/part2-3.dir/all:
+	$(MAKE) -f CMakeFiles/part2-3.dir/build.make CMakeFiles/part2-3.dir/depend
+	$(MAKE) -f CMakeFiles/part2-3.dir/build.make CMakeFiles/part2-3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target part2-3"
+.PHONY : CMakeFiles/part2-3.dir/all
 
 # Include target in all.
-all: CMakeFiles/cs223_project2.dir/all
+all: CMakeFiles/part2-3.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cs223_project2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cs223_project2.dir/all
+CMakeFiles/part2-3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/part2-3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/cs223_project2.dir/rule
+.PHONY : CMakeFiles/part2-3.dir/rule
 
 # Convenience name for target.
-cs223_project2: CMakeFiles/cs223_project2.dir/rule
+part2-3: CMakeFiles/part2-3.dir/rule
 
-.PHONY : cs223_project2
-
-# clean rule for target.
-CMakeFiles/cs223_project2.dir/clean:
-	$(MAKE) -f CMakeFiles/cs223_project2.dir/build.make CMakeFiles/cs223_project2.dir/clean
-.PHONY : CMakeFiles/cs223_project2.dir/clean
+.PHONY : part2-3
 
 # clean rule for target.
-clean: CMakeFiles/cs223_project2.dir/clean
+CMakeFiles/part2-3.dir/clean:
+	$(MAKE) -f CMakeFiles/part2-3.dir/build.make CMakeFiles/part2-3.dir/clean
+.PHONY : CMakeFiles/part2-3.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/part2-3.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/part1.dir
+
+# All Build rule for target.
+CMakeFiles/part1.dir/all:
+	$(MAKE) -f CMakeFiles/part1.dir/build.make CMakeFiles/part1.dir/depend
+	$(MAKE) -f CMakeFiles/part1.dir/build.make CMakeFiles/part1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target part1"
+.PHONY : CMakeFiles/part1.dir/all
+
+# Include target in all.
+all: CMakeFiles/part1.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/part1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/part1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/part1.dir/rule
+
+# Convenience name for target.
+part1: CMakeFiles/part1.dir/rule
+
+.PHONY : part1
+
+# clean rule for target.
+CMakeFiles/part1.dir/clean:
+	$(MAKE) -f CMakeFiles/part1.dir/build.make CMakeFiles/part1.dir/clean
+.PHONY : CMakeFiles/part1.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/part1.dir/clean
 
 .PHONY : clean
 

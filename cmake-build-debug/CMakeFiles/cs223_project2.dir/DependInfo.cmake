@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jack/CLionProjects/cs223-project2/Part1/TestHashing.cpp" "/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/cs223_project2.dir/Part1/TestHashing.cpp.o"
   "/home/jack/CLionProjects/cs223-project2/Part2-3/TestHead.cpp" "/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/cs223_project2.dir/Part2-3/TestHead.cpp.o"
-  "/home/jack/CLionProjects/cs223-project2/main.cpp" "/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/cs223_project2.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

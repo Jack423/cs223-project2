@@ -1,3 +1,4 @@
 /home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/part2-3.dir
 /home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/cs223_project2.dir
+/home/jack/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/part1.dir
