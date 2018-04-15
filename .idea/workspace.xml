@@ -12,7 +12,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4ac5d2d-f912-47da-bb2b-94b70bc89d7b" name="Default" comment="" />
+    <list default="true" id="b4ac5d2d-f912-47da-bb2b-94b70bc89d7b" name="Default" comment="Part 1:&#10;testCorrectness Function Works as Expected&#10;&#10;testHashingTime Does Not Run(Don't Know Why)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/Part1/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +30,8 @@
       <file leaf-file-name="TestHashing.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestHashing.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="323">
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
               <folding>
                 <element signature="e#41#59#0" expanded="true" />
               </folding>
@@ -50,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/HashingWithLL.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#126#146#0" expanded="true" />
               </folding>
@@ -106,6 +108,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="sCderb429 &lt;scottd8@cox.net&gt;" />
         <option value="Jack Butler &lt;guitar423@gmail.com&gt;" />
       </list>
     </option>
@@ -220,7 +223,8 @@
       <workItem from="1523739825857" duration="3298000" />
       <workItem from="1523743211153" duration="3337000" />
       <workItem from="1523746565196" duration="819000" />
-      <workItem from="1523747400583" duration="10982000" />
+      <workItem from="1523747400583" duration="11220000" />
+      <workItem from="1523765022373" duration="1183000" />
     </task>
     <task id="LOCAL-00001" summary="Updated TestHashing.cpp">
       <created>1523727181538</created>
@@ -250,11 +254,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523764395099</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Part 1:&#10;testCorrectness Function Works as Expected&#10;&#10;testHashingTime Does Not Run(Don't Know Why)">
+      <created>1523764808747</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523764808747</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25923000" />
+    <option name="totallyTimeSpent" value="27344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -267,16 +278,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13856691" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947312" weight="0.32897604" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.33006537" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50052685" side_tool="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.17102396" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -287,25 +296,26 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.33006537" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13856691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978212" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.33006537" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -320,7 +330,8 @@
     <MESSAGE value="Added project files for part 2 and 3" />
     <MESSAGE value="Reconfigured project structure" />
     <MESSAGE value="Part 1:&#10;testCorrectness Function Works&#10;&#10;testHashingTime Does Not Run(Don't Know Why)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 1:&#10;testCorrectness Function Works&#10;&#10;testHashingTime Does Not Run(Don't Know Why)" />
+    <MESSAGE value="Part 1:&#10;testCorrectness Function Works as Expected&#10;&#10;testHashingTime Does Not Run(Don't Know Why)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 1:&#10;testCorrectness Function Works as Expected&#10;&#10;testHashingTime Does Not Run(Don't Know Why)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -400,7 +411,7 @@
     <entry file="file://$PROJECT_DIR$/HashingWithLL.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#126#146#0" expanded="true" />
           </folding>
@@ -437,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestHashing.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="323">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
           <folding>
             <element signature="e#41#59#0" expanded="true" />
           </folding>
