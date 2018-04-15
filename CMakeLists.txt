@@ -1,7 +1,8 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.9.6)
 project(cs223_project2)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(part1 Part1/LinkedList.h Part1/HashingWithLL.h Part1/HashingWithAVL.h Part1/AVL.h Part1/Hashing.h Part1/PrimeGeneration.h Part1/TestHashing.cpp)
-add_executable(part2-3 Part2-3/Heap.h Part2-3/KSortAlgo.h Part2-3/TestHead.cpp)
+
+add_executable(part1 TestHashing.cpp AVL.h Hashing.h HashingWithAVL.h HashingWithLL.h LinkedList.h PrimeGeneration.h)
+add_executable(part2-3 TestHeap.cpp Heap.h KSortAlgo.h)
