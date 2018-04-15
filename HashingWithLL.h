@@ -7,6 +7,7 @@
 
 #include "Hashing.h"
 #include "LinkedList.h"
+#include <stdio.h>
 
 class HashingWithLL : Hashing {
 
@@ -16,7 +17,7 @@ public:
 
     HashingWithLL(int tableSize) :
             Hashing(tableSize) {
-        hashTable = new LinkedList[TABLE_SIZE];
+            hashTable = new LinkedList[TABLE_SIZE];
     }
 
     bool search(int key) {
@@ -28,9 +29,27 @@ public:
     }
 
     bool insert(int val) { // fill this method
+
+        int hashVal = getHashValue(val);
+        if (!search(val)){
+            hashTable[hashVal].insertAtEnd(val);
+            return true;
+        }
+        else{
+            return false;
+        }
+
     }
 
     bool remove(int val) { // fill this method
+        int hashVal = getHashValue(val);
+        if (search(val)){
+            hashTable[hashVal].removeFirst(val);
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
     void printStatistics() {

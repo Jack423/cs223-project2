@@ -7,6 +7,7 @@
 
 #include "AVL.h"
 #include "Hashing.h"
+#include <cstdio>
 
 class HashingWithAVL: Hashing {
 
@@ -20,12 +21,36 @@ public:
     }
 
     bool search(int key) { // fill this method
+        int hashVal = getHashValue(key);
+        if (hashTable[hashVal].search(key) < 0){
+            return false;
+        }
+        else{
+            return true;
+        }
     }
 
     bool insert(int val) { // fill this method
+
+        int hashVal = getHashValue(val);
+        if (search(val)) {
+            hashTable[hashVal].insert(val);
+            return true;
+        } else {
+            return false;
+        }
+
     }
 
     bool remove(int val) {// fill this method
+        int hashVal = getHashValue(val);
+        if (search(val)){
+            hashTable[hashVal].remove(val);
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 
     void printStatistics() {

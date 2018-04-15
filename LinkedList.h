@@ -34,10 +34,22 @@ public:
     }
 
     bool removeFirst(int val) { // fill this method
+        ListNode *tmp = head;
+        if(tmp->value == val){
+            deleteHead();
+            return true;
+        }
+        for (int i = 0; i < size; i++) {
+            if (tmp->next->value == val){
+                deleteAfter(tmp->next);
+                return true;
+            }
+            tmp = tmp->next;
+        }
+        return false;
     }
 
     void deleteAfter(ListNode *argNode) {
-
         if (argNode == tail) {
             cout << "Cannot delete after tail." << endl;
         } else if (argNode->next == tail) {

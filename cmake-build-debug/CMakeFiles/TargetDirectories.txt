@@ -1,4 +1,4 @@
-C:/Users/Jack4/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/part1.dir
-C:/Users/Jack4/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/part2-3.dir
-C:/Users/Jack4/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Jack4/CLionProjects/cs223-project2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Documents/Github/cs223-project2/cmake-build-debug/CMakeFiles/part1.dir
+D:/Documents/Github/cs223-project2/cmake-build-debug/CMakeFiles/part2-3.dir
+D:/Documents/Github/cs223-project2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Documents/Github/cs223-project2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

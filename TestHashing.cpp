@@ -4,8 +4,8 @@
 
 #include <cstdlib>
 #include <iostream>
-#include <stdio.h>
-#include <time.h>
+#include <cstdio>
+#include <ctime>
 
 #include "HashingWithAVL.h"
 #include "HashingWithLL.h"
@@ -161,7 +161,7 @@ void testHashingTime() {
     cout << endl << "*** Time Test Hashing With Balanced BST ***" << endl
          << endl;
     hBST.printStatistics();
-    cout << "Total time over " << U << " insertion attempts ("
+    cout << "Total time over " <<U<< " insertion attempts ("
          << numFailedInsertions << " failed): " << totalBSTHashIns
          << " (may be different with each execution)" << endl;
     cout << "Total time over " << U << " search attempts (" << numFailedSearches
