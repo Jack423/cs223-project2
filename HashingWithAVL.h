@@ -22,7 +22,7 @@ public:
 
     bool search(int key) { // fill this method
         int hashVal = getHashValue(key);
-        if (hashTable[hashVal].search(key) < 0){
+        if (hashTable[hashVal].search(key) == NULL){ //Arnab: Note that the search method of the BST/AVL class returns either a BSTNode or a NULL (depending on whether it found the key or not). So you have to change the comparison to: if (hashTable[hashVal].search(key) == NULL)
             return false;
         }
         else{
@@ -33,7 +33,7 @@ public:
     bool insert(int val) { // fill this method
 
         int hashVal = getHashValue(val);
-        if (search(val)) {
+        if (!search(val)) { //Arnab: Small logical mistake. You insert when the value is not already in BST, i.e., when search returns false. So change to: if (!search(val)), as you have done in HashingWithLL
             hashTable[hashVal].insert(val);
             return true;
         } else {

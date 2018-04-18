@@ -39,9 +39,9 @@ public:
             deleteHead();
             return true;
         }
-        for (int i = 0; i < size; i++) {
-            if (tmp->next->value == val){
-                deleteAfter(tmp->next);
+        for (int i = 0; i < size - 1; i++) {
+            if (tmp->next->value == val){ //Arnab: There is a flaw. What happens when val is not on the list? You will continue all the way upto the end, and tmp becomes tail. Then, tmp->next is NULL. So, you are trying to do NULL->value, which is a null pointer reference. So you should not go all the way to the end. Hence, change to i < size - 1 in the for loop.
+                deleteAfter(tmp); //Arnab: This is incorrect. Recall that deleteAfter deletes the node following the argument. In this case, your tmp->next->value == val, so you should delete tmp->next. Hence, change the call to deleteAfter(tmp).
                 return true;
             }
             tmp = tmp->next;
