@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/part1.dir/TestHashing.cpp.o  -o part1 
+/usr/bin/c++     CMakeFiles/part1.dir/TestHashing.cpp.o  -o part1 

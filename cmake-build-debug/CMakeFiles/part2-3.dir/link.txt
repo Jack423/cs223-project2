@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/part2-3.dir/TestHeap.cpp.o  -o part2-3 
+/usr/bin/c++     CMakeFiles/part2-3.dir/TestHeap.cpp.o  -o part2-3 
