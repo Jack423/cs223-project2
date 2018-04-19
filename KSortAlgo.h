@@ -11,15 +11,22 @@ class KSortAlgo {
 
 public:
     void sort(int kSortedArray[], int arrayLen, int k) { // fill this method
-        int *heapArray = new int[k + 1];
-        for (int i = 0; i <= k && i < arrayLen; i++)
-            heapArray[i] = kSortedArray[i];
-        Heap hp(k + 1);
+        Heap heap(k + 1);
+        int ti = 0;
+        for (int i = 0; i <= k; i++)
+            heap.insert(kSortedArray[i]);
 
-        for (int i = k + 1, ti = 0; ti < arrayLen; i++, ti++) {
-            kSortedArray[ti] = hp.deleteMinimum();
+        for (int i = k + 1; ti < arrayLen; i++) {
+            heap.insert(kSortedArray[i]);
+            kSortedArray[ti] = heap.deleteMinimum();
+            ti++;
+        }
+        for (int i = 0; i < k; i++) {
+            kSortedArray[ti] = heap.deleteMinimum();
+            ti++;
         }
     }
+
 };
 
 #endif //CS223_PROJECT2_KSORTALGO_H
